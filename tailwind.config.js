@@ -4,10 +4,14 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				pri: "#257180",
-				sec: "#F2E5BF",
-				accent1: "#FD8B51",
-				accent2: "#CB6040",
+				pri: "#333333",
+				sec: "#F0F0F0",
+				accent1: "#666666",
+				background: "#FFFFFF",
+				foreground: "#333333",
+			},
+			fontFamily: {
+				mono: ['"Space Mono"', 'monospace'], // Added Space Mono as an example, with monospace fallback
 			},
 		},
 	},
